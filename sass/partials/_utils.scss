@@ -1,0 +1,14 @@
+@mixin line-decoration($width: 10%, $color: var(--white-400)) {
+  position: relative;
+  margin-bottom: 1.4rem;
+  &::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: $width;
+    background-color: $color;
+    bottom: -.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

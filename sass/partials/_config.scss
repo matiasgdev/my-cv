@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+img {
+  vertical-align: top;
+}
+
+:root {
+  --f-header: 'Oxygen', sans-serif;
+  --f-primary: 'Quicksand', sans-serif;
+  --bg-header: #373a40;
+  --white: #fff;
+  --white-200: #eee;
+  --white-400: #dcdcdc;
+  --blue: #3471e1;
+  --blue-200: #0c42a5;
+  --blue-500: #0b2e6f;
+  --space-24: 24px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-24);
+  border: 1px solid red;
+}

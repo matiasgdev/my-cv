@@ -1,0 +1,19 @@
+.section {
+  padding-bottom: var(--space-24);
+  border-bottom: 1px solid rgba(gray, 0.2);
+  margin-top: var(--space-24);
+
+  &__title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    width: 100%;
+    padding: 2px 5px;
+    border-radius: 1em;
+    font-family: var(--f-primary);
+  }
+
+  &--last {
+    border-bottom: none;
+  }
+}
