@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
 
 *, *:after, *:before {
   box-sizing: border-box;
@@ -9,6 +11,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
   padding: 0;
   margin: 0;
   font-size: 16px;
+  font-family: var(--f-secondary);
 }
 
 img {
@@ -17,20 +20,22 @@ img {
 
 :root {
   --f-header: 'Oxygen', sans-serif;
-  --f-primary: 'Quicksand', sans-serif;
+  --f-primary: 'Nunito Sans', sans-serif;
+  --f-secondary: 'Maven Pro', sans-serif;
   --bg-header: #373a40;
   --white: #fff;
   --white-200: #eee;
   --white-400: #dcdcdc;
-  --blue: #3471e1;
-  --blue-200: #0c42a5;
-  --blue-500: #0b2e6f;
+  --gray: #625f5f;
+  --gray-200: #505050;
+  --yellow: #deeae2;
+  --space-12: 12px;
   --space-24: 24px;
+  --space-36: 36px;
 }
 
 .container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 var(--space-24);
-  border: 1px solid red;
 }

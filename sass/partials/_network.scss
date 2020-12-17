@@ -1,0 +1,22 @@
+.networks {
+  .list {
+    &--item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      span {
+        margin-bottom: .3rem;
+        font-size: 1.1rem;
+        color: var(--gray-200);
+      }
+      a {
+        $color: #3e978b;
+        color:$color;
+        &:hover {
+          color: lighten($color, 30%);
+        }
+      }
+
+    }
+  }
+}

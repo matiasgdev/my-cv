@@ -1,3 +1,14 @@
 .contact {
-  
+  &__location {
+    color: var(--gray-200, black);
+    font-style: italic;
+  }
+  .list {
+    margin-top: .3rem;
+    &--item {
+      font-size: .9rem;
+      margin-bottom: .3rem;
+      color: var(--gray);
+    }
+  }
 }

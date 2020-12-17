@@ -1,19 +1,19 @@
 .section {
-  padding-bottom: var(--space-24);
-  border-bottom: 1px solid rgba(gray, 0.2);
   margin-top: var(--space-24);
+  margin-bottom: var(--space-36);
 
   &__title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-bottom: var(--space-12);
+    letter-spacing: 1px;
     font-weight: 500;
-    margin-bottom: .5rem;
-    width: 100%;
-    padding: 2px 5px;
-    border-radius: 1em;
+    padding: 5px 10px;
+    font-weight: normal;
     font-family: var(--f-primary);
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: var(--yellow);
+    color: var(--gray);
   }
 
-  &--last {
-    border-bottom: none;
-  }
 }
