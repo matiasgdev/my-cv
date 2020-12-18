@@ -1,0 +1,15 @@
+{
+  "name": "My cv template",
+  "short_name": "My CV App",
+  "start_url": ".",
+  "scope": "/",
+  "theme_color": "#eeeddd",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/me.png",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone"
+}
